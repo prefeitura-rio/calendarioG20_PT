@@ -14,9 +14,7 @@
   "files": [
     "dist"
   ],
-
-  "homepage": "https://lucastavarex.github.io/G20Calendar",
-
+  "homepage": "https://prefeitura-rio.github.io/calendarioG20",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -24,7 +22,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  
   "author": "Eric Zhou",
   "license": "MIT",
   "keywords": [
