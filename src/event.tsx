@@ -86,9 +86,9 @@ export default class Event extends React.Component<EventProps, EventState> {
                     position: "absolute",
                     top: "5px",
                     left: "2px",
-                    color: this.props.color || "#4786ff",
-                    height: "15px",
-                    width: "15px",
+                    color: "#000000",
+                    height: "10px",
+                    width: "10px",
                   }, 
                   // @ts-ignore
                   this.props.eventCircleStyles]}>
@@ -99,9 +99,9 @@ export default class Event extends React.Component<EventProps, EventState> {
                       display: none;
                     }
                   `}>
-                    { this.state.startTime.format("h:mma ") }
+                    { this.state.startTime.format("h:mm a ") }
                   </span>
-                  <span css={{fontWeight: "500"}}>
+                  <span >
                     {this.props.name}
                   </span>
                 </div>

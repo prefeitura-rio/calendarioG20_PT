@@ -23,11 +23,9 @@ let styles = {
     borderWidth: "1.0px", //make outer edge of calendar thicker
   },
 
-  //you can also use emotion's string styles
-
 };
 
-const language = "PT";
+const language = "EN";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

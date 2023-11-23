@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
 html {
   overflow-wrap: inherit;
 }
-/* * {    
+
+* {    
   margin: 0 !important;
-  padding: 0 !important;
-} */
+  /* padding: 0 !important; */
+  /* font-family: Outfit, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+} 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: Outfit, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,7 +26,8 @@ html {
 
 h2.calendar-title{
   font-size: 20px;
-  font-family: Outfit, sans-serif;
+  color:#333;
+  font-family: 'Outfit', sans-serif;
 }
 
 .unselectable {
@@ -29,8 +37,22 @@ h2.calendar-title{
   user-select: none;
 }
 
+.arrow-icon-left{
+  border: 1px solid #8d8d8d;
+  border-radius: 2px;
+  padding: 6px 14px 6px 14px;
+}
+.arrow-icon-right{
+  border: 1px solid #8d8d8d;
+  border-radius: 2px;
+  padding: 6px 14px 6px 14px;
+}
+
 .calendar-navigate {
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
+  font-weight: 100px;
+ 
+ 
   /* opacity: 0.5; */
 }
 
@@ -105,7 +127,7 @@ h2.calendar-title{
 .event {
   box-sizing: border-box;
   margin: 1px 0px;
-  font-size: 15px;
+  font-size: 13.5px;
   height: 26px;
 }
 

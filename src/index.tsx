@@ -570,7 +570,11 @@ export default class Calendar extends React.Component<CalendarProps, CalendarSta
             className="calendar-navigate unselectable"
             onClick={this.lastMonth}
           >
-            &#10094;
+            <div className="arrow-icon-left"><svg className="w-pagination-prev-icon icon-3" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)">
+    <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M8 2l-4 4 4 4"></path>
+</svg>
+</div>
+            
           </div>
           <div>
             <h2 className="calendar-title">
@@ -581,7 +585,7 @@ export default class Calendar extends React.Component<CalendarProps, CalendarSta
             className="calendar-navigate unselectable"
             onClick={this.nextMonth}
           >
-            &#10095;
+            <div className="arrow-icon-right"><svg className="w-pagination-next-icon icon-3" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)"><path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path></svg></div>
           </div>
         </div>
         <div className="calendar-body">

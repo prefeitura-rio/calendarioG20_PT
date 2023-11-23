@@ -96,7 +96,7 @@ export default class Tooltip extends React.Component<TooltipProps, TooltipState>
               width: 250px;
               background: #fff;
               text-align: left;
-              padding: 5px;
+              padding: 25px;
               border-radius: 6px;
               color: #51565d;
               border: 2px solid rgba(81, 86, 93, 0.1);
@@ -112,7 +112,7 @@ export default class Tooltip extends React.Component<TooltipProps, TooltipState>
               <div css={css`
                 position: absolute;
                 right: 2px;
-                top: -5px;
+                top: -15px;
                 opacity: 0.5;
                 font-size: 24px;
                 &:hover {
