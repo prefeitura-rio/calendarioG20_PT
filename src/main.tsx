@@ -25,7 +25,7 @@ let styles = {
 
 };
 
-const language = "EN";
+const language = "PT";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
