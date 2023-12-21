@@ -150,14 +150,14 @@ V.version="2.29.4";cv(z1);V.fn=Y;V.min=$g;V.max=Kg;V.now=Vg;V.utc=$M;V.unix=m9;V
           position: relative;
         `,children:Z1(If,{children:[b0(Zf,{children:({ref:p})=>b0("div",{css:[qz`
                   width: ${"calc(100% - "+8*((this.props.arrowLeft||!1)+(this.props.arrowRight||!1))+"px)"};
-                  border-radius: 3px;
+                  border-radius: 20px;
                   background: ${this.state.color};
                   &:hover {
                     background: ${this.state.darkColor};
                   }
                   ${this.props.arrowLeft&&z}
                   ${this.props.arrowRight&&b}
-                `,this.props.multiEventStyles],onClick:this.toggleTooltip,ref:p,children:Z1("div",{className:"event-text",css:{padding:"3px 0px",color:"white",marginLeft:this.props.arrowLeft?"2px":"5px",marginRight:this.props.arrowRight?"0px":"5px",overflowX:"hidden",whiteSpace:"nowrap",position:"relative",textAlign:"left","&:hover":{cursor:"pointer"}},children:[this.state.allDay?"":this.state.startTime.format("h:mma "),b0("span",{css:{fontWeight:"500"},children:this.props.name})]})})}),b0(Pc,{name:this.props.name,startTime:r0(this.props.startTime),endTime:r0(this.props.endTime),description:this.props.description,location:this.props.location,tooltipStyles:this.props.tooltipStyles,showTooltip:this.state.showTooltip,closeTooltip:this.closeTooltip,calendarName:this.props.calendarName})]})})}}function Fw(M){return new Promise((z,b)=>{const p=document.createElement("script");p.src="https://apis.google.com/js/api.js",document.body.appendChild(p),p.onload=()=>{gapi.load("client",()=>{gapi.client.init({apiKey:M}).then(()=>{gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest").then(()=>z("GAPI client successfully loaded for API"),O=>b(O))})})}})}function Yw(M,z=1e3){return gapi.client.calendar.events.list({calendarId:M,maxResults:z})}var V3={exports:{}};/**
+                `,this.props.multiEventStyles],onClick:this.toggleTooltip,ref:p,children:Z1("div",{className:"event-text",css:{paddingLeft:"10px",marginTop:"2px",paddingTop:"1px",paddingBottom:"1px",color:"white",marginLeft:"5px",marginRight:"5px",overflowX:"hidden",whiteSpace:"nowrap",position:"relative",textAlign:"left","&:hover":{cursor:"pointer"}},children:[this.state.allDay?"":this.state.startTime.format("h:mma "),b0("span",{css:{fontWeight:"500"},children:this.props.name})]})})}),b0(Pc,{name:this.props.name,startTime:r0(this.props.startTime),endTime:r0(this.props.endTime),description:this.props.description,location:this.props.location,tooltipStyles:this.props.tooltipStyles,showTooltip:this.state.showTooltip,closeTooltip:this.closeTooltip,calendarName:this.props.calendarName})]})})}}function Fw(M){return new Promise((z,b)=>{const p=document.createElement("script");p.src="https://apis.google.com/js/api.js",document.body.appendChild(p),p.onload=()=>{gapi.load("client",()=>{gapi.client.init({apiKey:M}).then(()=>{gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest").then(()=>z("GAPI client successfully loaded for API"),O=>b(O))})})}})}function Yw(M,z=1e3){return gapi.client.calendar.events.list({calendarId:M,maxResults:z})}var V3={exports:{}};/**
  * @license
  * Lodash <https://lodash.com/>
  * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
